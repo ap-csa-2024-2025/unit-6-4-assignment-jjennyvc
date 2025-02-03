@@ -23,13 +23,23 @@ public class Main
 
   public static int indexOf(double[] arr, double target)
   {
-    // replace with your code
+    for(int i = 0; i < arr.length; i++)
+    {
+      double elem = arr[i];
+      if(elem == target)
+      {
+        return i;
+      }
+    }
     return -1;
   }
 
   public static boolean hasDuplicates(int[] arr)
   {
-    // replace with your code
+    for(int i = 0; i < arr.lenth; i++)
+    {
+      if(arr[i].equals())
+    }
     return false;
   }
 
